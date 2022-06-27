@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color:#fff;
+}
+html{
+    font-family: "Open Sans", sans-serif;
+}
+#navbar{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 70px;
+}
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+#navbar ul li a{
+    padding: 0.75rem;
+}
+#navbar ul li a:hover{
+background: #336ea2;
+border-radius: 5px;
+}
+/* Home */
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+#home img{
+   max-width: 300px;
+   height: auto;
+   border-radius: 100%;
+}
+#home .name h2{
+    margin-bottom: 0.75rem;
+}
+#home .name p{
+    opacity: 0.6;
+    font-style: italic;
+}
+#education{
+    color: #fff;
+    padding: 1rem;
+}
+#education .items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#education .items .item{
+    width: 33%;
+    letter-spacing: 0.5px;
+    text-align: center;
+    padding: 0.5rem;
+}
+#skills{
+    color: #fff;
+    width: 100%;
+    margin-top: 1.5rem;
+}
+#skills h3{
+    padding-top: 1.5rem;
+}
+#skills .container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.skils{
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.skilss .skils .skilss-image{
+    padding-left: 1.5rem;
+}
+.skils .skillss-info .skills-list{
+    padding: 1.5rem;
+    list-style-type:none;
+    letter-spacing: 1px;
+    margin-left: 2rem;
+}
+#contact{
+    color: #fff;
+    margin-top: 20px;
+}
+.form-group .contact-list{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 1.5rem;
+    list-style-type: none;
+}
